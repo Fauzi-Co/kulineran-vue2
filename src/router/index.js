@@ -5,6 +5,7 @@ import FoodsView from '../views/FoodsView.vue'
 import FoodDetailView from '../views/FoodDetailView.vue'
 import KeranjangView from '../views/KeranjangView.vue'
 import LoginView from '../views/LoginView.vue'
+import RegisterView from '../views/RegisterView.vue'
 import berandaView from '../views/admin/BerandaView.vue'
 import PesananSuksesView from '../views/PesananSuksesView.vue'
 
@@ -42,6 +43,11 @@ const routes = [
     name: 'login',
     component: LoginView
   },
+  {
+    path: '/register',
+    name: 'register',
+   component: RegisterView
+ },
   {
     path: '/dashboard/',
     name: 'berandaAdmin',
