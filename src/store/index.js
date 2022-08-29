@@ -11,6 +11,7 @@ const store = new Vuex.Store({
       userId: '',
       role: '',
     },
+    produks: [],
   },
   getters: {
     getIsLogin(state) {
@@ -25,6 +26,9 @@ const store = new Vuex.Store({
     getRole(state) {
       return state.user.role
     },
+    getProduks(state) {
+      return state.produks
+    }
   },
   mutations: {
     setIsLogin(state) {
@@ -38,6 +42,9 @@ const store = new Vuex.Store({
     },
     setRole(state, role) {
       state.user.role = role
+    },
+    setProduks(state, data) {
+      state.produks = data
     }
   },
   actions: {
