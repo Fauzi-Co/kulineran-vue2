@@ -1,0 +1,15 @@
+#app {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.router-link-exact-active {
+  color: #000 !important;
+}
+
+.breadcrumb {
+  padding: 0;
+}
+
+.breadcrumb a {
+  color: #28a745 !important
+}
